@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <title>World clothes</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      style="opacity: 0.7"
+    >
+      <div class="container-fluid">
+        <input type="image" src="img/Logo.png" width="70px" class="mx-3" />
+        <a class="navbar-brand border-end pe-2" href="#" style="font-size: 25px"
+          >World Clothes</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-success success"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success success" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-success success dropdown-toggle border border-2 rounded-3"
+                style="border-color: green !important"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sections
+              </a>
+              <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">NEW</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">OFFERS</a>
+                </li>
+                <li>
+                  <hr
+                    class="dropdown-divider border-success border-2"
+                    style="opacity: 1"
+                  />
+                </li>
+                <li><a class="dropdown-item" href="#">MEN</a></li>
+                <li><a class="dropdown-item" href="#">WOMEN</a></li>
+                <li><a class="dropdown-item" href="#">CHILDREN</a></li>
+                <li><a class="dropdown-item" href="#">SPORTS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success success disabled" href="#"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-3 border-success"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-success me-3 rounded-3" type="submit">
+              Search
+            </button>
+            <button
+              class="btn btn-success rounded-3"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h1 class="modal-title" id="exampleModalLabel" style="color: #fff">
+              Login
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              style="background-color: #189d5f"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="m-3">
+                <label for="exampleInputEmail1" class="form-label text-success"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control border-success"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="m-3">
+                <label
+                  for="exampleInputPassword1"
+                  class="form-label text-success"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control border-success"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="form-check form-switch ms-5 mb-3">
+                <input
+                  class="form-check-input bg-success border-success"
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckChecked"
+                  checked
+                />
+                <label
+                  class="form-check-label text-success"
+                  for="flexSwitchCheckChecked"
+                  >Remmember me</label
+                >
+              </div>
+            </form>
+            <div class="modal-footer d-flex justify-content-between">
+              <button type="button" class="btn btn-success">Login</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside>
+      <div class="aside fixed-top">
+        <div class="aside-item position-absolute fff">
+          <a
+            class="nav-link position-absolute iocn0"
+            href=""
+            style="z-index: 10"
+            ><i class="fa-solid fa-square-share-nodes"></i>
+          </a>
+          <a class="nav-link position-absolute iocn1" href="#"
+            ><i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a class="nav-link position-absolute iocn2" href="#"
+            ><i class="fa-brands fa-square-whatsapp"></i>
+          </a>
+          <a class="nav-link position-absolute iocn3" href="#"
+            ><i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+          <a class="nav-link position-absolute iocn4" href="#"
+            ><i class="fa-brands fa-square-github"></i>
+          </a>
+          <a class="nav-link position-absolute iocn5" href="#"
+            ><i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      style="margin-top: 85px"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/back1.jpg"
+            class="d-block w-100"
+            style="height: 640px"
+          />
+          <div class="carousel-caption">
+            <h1>Welcome to Clothes World</h1>
+            <p>We have the latest clothes and all world brands.</p>
+            <a
+              class="btn btn-success text-white text-shadow"
+              href="#"
+              target="_blank"
+              >Shop now</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/back2.jpg"
+            class="d-block w-100"
+            style="height: 640px"
+          />
+          <div class="carousel-caption">
+            <h1>Discount on men's shirts</h1>
+            <p>We have all sizes and colors.</p>
+            <a
+              class="btn btn-success text-white text-shadow"
+              href="#"
+              target="_blank"
+              >Go Look</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/back3.jpg"
+            class="d-block w-100"
+            style="height: 640px"
+          />
+          <div class="carousel-caption">
+            <h1>Discount on sports pants</h1>
+            <p>We have all sizes and colors.</p>
+            <a
+              class="btn btn-success text-white text-shadow"
+              href="#"
+              target="_blank"
+              >Go Look</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/back4.jpg"
+            class="d-block w-100"
+            style="height: 640px"
+          />
+          <div class="carousel-caption">
+            <h1>Discount on men's t-shirts</h1>
+            <p>We have all sizes and colors.</p>
+            <a
+              class="btn btn-success text-white text-shadow"
+              href="#"
+              target="_blank"
+              >Go Look</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/back5.jpg"
+            class="d-block w-100"
+            style="height: 640px"
+          />
+          <div class="carousel-caption">
+            <h1>Discount blouses and shirts for women</h1>
+            <p>We have all sizes and colors.</p>
+            <a
+              class="btn btn-success text-white text-shadow"
+              href="#"
+              target="_blank"
+              >Go Look</a
+            >
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section>
+      <div class="card p-3" style="background-color: #83c3a6">
+        <div class="card-body">
+          <h3
+            class="card-title text-uppercase"
+            style="color: #0a8702; font-weight: bold"
+          >
+            Welcome
+          </h3>
+          <p class="card-text text-white">
+            We have the latest clothes and all international brands. We have
+            discounts up to 70%
+          </p>
+          <a
+            href="#"
+            class="btn btn-light text-success border-1 fs-5"
+            style="font-weight: bold"
+            >Go Shop Now</a
+          >
+        </div>
+      </div>
+      <hr style="border-color: black !important" />
+      <div
+        class="my-3 p-4 text-center text-light rounded-3 shadow-lg bg-success"
+      >
+        <h1>Sections</h1>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button fs-5 text-success title shadow-lg collapsed text-uppercase"
+              style="z-index: 10"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              men
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              We have the latest shirts and t-shirts <code>here</code>.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button
+              class="accordion-button fs-5 text-success title shadow-lg collapsed text-uppercase"
+              style="z-index: 5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              women
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              We have discount blouses and shirts <code>here</code>.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button
+              class="accordion-button fs-5 text-success title shadow-lg collapsed text-uppercase"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              children
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              We have clothes for all ages and shoes <code>here</code>.
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="border-color: black !important" />
+      <div class="row" style="width: 99vw !important">
+        <div class="col mb-3 com mov1">
+          <div
+            class="mt-3 p-2 text-center text-light rounded-3 shadow-lg bg-success rounded-pill mx-auto comm"
+            style="width: 16rem; transform: translate(1%, 0%)"
+          >
+            <h1>Comments</h1>
+          </div>
+          <div
+            class="card p-3 visually-hidden mx-auto mx-auto con"
+            style="background-color: #689c84; transform: translate(1%, 0%)"
+          >
+            <div class="card-body">
+              <p class="card-text text-white fs-4">
+                Read Comments
+                <a
+                  href="#"
+                  class="fs-4 text-decoration-none"
+                  style="color: #0f5132"
+                  >Press Here</a
+                >
+              </p>
+              <a
+                href="#"
+                class="btn btn-light text-success bor border-2 fs-6 mb-4 tooltips"
+                style="font-weight: bold"
+                data-bs-placement="bottom"
+                title="Tooltip on bottom"
+                >Send</a
+              >
+              <div class="input-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Write Comment"
+                  rows="6"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 com mov2">
+          <div
+            class="mt-3 p-2 text-center text-light rounded-3 shadow-lg bg-success rounded-pill mx-auto comm"
+            style="width: 16rem; transform: translate(1%, 0%)"
+          >
+            <h1>Suggestions</h1>
+          </div>
+          <div
+            class="card p-3 visually-hidden mx-auto con"
+            style="background-color: #689c84; transform: translate(1%, 0%)"
+          >
+            <div class="card-body">
+              <p class="card-text text-white fs-4">
+                Read Suggestions
+                <a
+                  href="#"
+                  class="fs-4 text-decoration-none"
+                  style="color: #0f5132"
+                  >Press Here</a
+                >
+              </p>
+              <a
+                href="#"
+                class="btn btn-light text-success bor border-2 fs-6 mb-4 tooltips"
+                style="font-weight: bold"
+                >Send</a
+              >
+              <div class="input-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Write Suggestion"
+                  rows="6"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 com mov3">
+          <div
+            class="mt-3 p-2 text-center text-light rounded-3 shadow-lg bg-success rounded-pill mx-auto comm"
+            style="width: 16rem; transform: translate(1%, 0%)"
+          >
+            <h1>Complaints</h1>
+          </div>
+          <div
+            class="card p-3 visually-hidden mx-auto con"
+            style="background-color: #689c84; transform: translate(1%, 0%)"
+          >
+            <div class="card-body">
+              <p class="card-text text-white fs-4">
+                Read Complaints
+                <a
+                  href="#"
+                  class="fs-4 text-decoration-none"
+                  style="color: #0f5132"
+                  >Press Here</a
+                >
+              </p>
+              <a
+                href="#"
+                class="btn btn-light text-success bor border-2 fs-6 mb-4 tooltips"
+                style="font-weight: bold"
+                >Send</a
+              >
+              <div class="input-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Write Complaint"
+                  rows="6"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="border-color: black !important" />
+    <div class="fixed-img successor1"></div>
+    <section>
+      <div class="p-3 text-center rounded-3 shadow-lg bg-success">
+        <h2 class="card-title cad" style="font-size: 40px">Sections</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-around p-5 text-success">
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project1.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">Shirts</h5>
+              <p class="card-text">Shirts of all sizes and colors</p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project2.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">T-shirts</h5>
+              <p class="card-text">T-shirts of all sizes and colors</p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project3.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">Trousers</h5>
+              <p class="card-text">Trousers in all sizes and colors</p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project4.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">Dresses</h5>
+              <p class="card-text">Dresses in all sizes and colors</p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project5.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">Sweaters</h5>
+              <p class="card-text">Sweaters in all sizes and colors</p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project6.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">Children</h5>
+              <p class="card-text">
+                Children's clothes in all sizes and colors
+              </p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project7.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">Sports</h5>
+              <p class="card-text">
+                Sports clothing for both in all sizes and colors
+              </p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-lg-3 col-md-4 col-sm-6 m-1 mb-5 shadow-lg border-success cards"
+          >
+            <img src="img/project8.jpg" class="card-img-top shadow" />
+            <div class="card-body position-relative">
+              <h5 class="card-title">NEW</h5>
+              <p class="card-text">The latest clothes of the year</p>
+              <a
+                href="#"
+                class="btn btn-success position-absolute end-0 none text-light"
+                style="top: 10%"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="fixed-img successor2"></div>
+    <hr style="border-color: black !important" />
+    <div
+      class="my-3 p-4 text-center rounded-3 shadow-lg bg-success text-uppercase"
+    >
+      <h1 class="card-title cad">international trademarks</h1>
+    </div>
+    <section style="margin: 10vh">
+      <div class="container pt-5" style="width: 100%; min-height: 500px">
+        <div class="row">
+          <div class="btn col-lg-4 col-md-6 col-sm-12 mb-4 rr" href="#">
+            <div
+              class="card cardd overflow-hidden hm border border-secondary border border-2"
+              style="transition: all 0.3s; border-radius: 25px"
+            >
+              <div class="back p-3">
+                <div
+                  class="card-body position-absolute tt"
+                  style="transition: all 0.3s"
+                >
+                  <a
+                    href="#"
+                    class="card-title fs-4 text-decoration-none text-capitalize aa"
+                    style="font-weight: bold"
+                  >
+                    brand names
+                  </a>
+                  <p class="card-text" style="font-weight: bold">
+                    Its branches are in 62 countries
+                  </p>
+                </div>
+                <img
+                  src="img/H&M.png"
+                  class="card-img-top mb-1 rounded-circle imga"
+                  style="z-index: 5"
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title" style="font-weight: bold">H&M</h5>
+                  <p class="card-text" style="font-weight: bold">
+                    A Swedish multinational clothing retailer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn col-lg-4 col-md-6 col-sm-12 mb-4 rr" href="#">
+            <div
+              class="card cardd overflow-hidden zara border border-secondary border border-2"
+              style="transition: all 0.3s; border-radius: 25px"
+            >
+              <div class="back p-3">
+                <div
+                  class="card-body position-absolute tt"
+                  style="transition: all 0.3s"
+                >
+                  <a
+                    href="#"
+                    class="card-title fs-4 text-decoration-none text-capitalize aa"
+                    style="font-weight: bold"
+                  >
+                    brand names
+                  </a>
+                  <p class="card-text" style="font-weight: bold">
+                    Its branches are in 88 countries
+                  </p>
+                </div>
+                <img
+                  src="img/zara.png"
+                  class="card-img-top mb-1 rounded-circle imga"
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title" style="font-weight: bold">ZARA</h5>
+                  <p class="card-text" style="font-weight: bold">
+                    One of the leading international fashion.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn col-lg-4 col-md-6 col-sm-12 mb-4 rr" href="#">
+            <div
+              class="card overflow-hidden cardd adi border border-secondary border border-2"
+              style="transition: all 0.3s; border-radius: 25px"
+            >
+              <div class="back p-3">
+                <div
+                  class="card-body position-absolute tt"
+                  style="transition: all 0.3s"
+                >
+                  <a
+                    href="#"
+                    class="card-title fs-4 text-decoration-none text-capitalize aa"
+                    style="font-weight: bold"
+                  >
+                    brand names
+                  </a>
+                  <p class="card-text" style="font-weight: bold">
+                    Its branches are in 114 countries
+                  </p>
+                </div>
+                <img
+                  src="img/adida.png"
+                  class="card-img-top mb-1 rounded-circle imga"
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title" style="font-weight: bold">ADIDAS</h5>
+                  <p class="card-text" style="font-weight: bold">
+                    German sportswear company.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="border-color: black !important" />
+    <section>
+      <div class="text-center cad mb-3" style="font-size: 35px">
+        Fashion Clothing
+      </div>
+      <div class="d-flex flex-column bd-highlight mb-3 mx-auto container">
+        <div
+          class="card flex-md-row-reverse mb-4 overflow-hidden cc"
+          style="
+            border-radius: 25px;
+            box-shadow: rgb(25, 135, 84) 20px 20px 80px 0px inset,
+              0px 0px 25px 3px #198754;
+          "
+        >
+          <a
+            href="#"
+            style="
+              background-image: url(img/fashion1.jpg);
+              transform: skew(-15deg, 0deg);
+            "
+          ></a>
+          <div class="card-body col-6 overflow-hidden bb">
+            <h2 class="card-title">Men's Fashion</h2>
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Sun, December 3,
+              2023</span
+            >
+            <div class="bg-success rounded-pill my-2 line"></div>
+            <p class="card-text h-50">
+              Get ready for winter with our fashionable and functional men's
+              winter collection. The collection includes luxurious coats and
+              jackets in wool and natural leather, with innovative designs and
+              delicate details. In addition, we offer a wide range of warm and
+              stylish sweaters and pullovers. Don't forget to complete your look
+              with luxurious winter shoes that combine elegance and comfort.
+              Visit our store today and discover the latest men's fashion trends
+              this season.
+            </p>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Sizes
+            </div>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Colors
+            </div>
+            <div class="bg-success d-inline-block p-2 rounded-2 nn">
+              <a href="#" class="text-decoration-none text-light"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="card flex-md-row mb-4 overflow-hidden cc"
+          style="
+            border-radius: 25px;
+            box-shadow: rgb(25, 135, 84) -20px 20px 80px 0px inset,
+              0px 0px 25px 3px #198754;
+          "
+        >
+          <a
+            href="#"
+            style="
+              background-image: url(img/fashion2.jpg);
+              transform: skew(15deg, 0deg);
+            "
+          ></a>
+          <div class="card-body col-6 overflow-hidden bb">
+            <h2 class="card-title">Women Fashion</h2>
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Sun, December 3,
+              2023</span
+            >
+            <div class="bg-success rounded-pill my-2 line"></div>
+            <p class="card-text h-50">
+              Get ready for winter with our modern and stylish women's winter
+              collection. The collection includes luxurious coats and jackets in
+              soft wool and natural leather, with exquisite designs and feminine
+              details. In addition, we offer a wide range of warm and stylish
+              sweaters and sweaters. Don't forget to complete your look with
+              luxurious winter shoes that combine elegance and comfort. Visit
+              our store today and discover the latest women's fashion trends
+              this season. Get ready for winter with unparalleled elegance!
+            </p>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Sizes
+            </div>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Colors
+            </div>
+            <div class="bg-success d-inline-block p-2 rounded-2 nn">
+              <a href="#" class="text-decoration-none text-light"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="card flex-md-row-reverse mb-4 overflow-hidden cc"
+          style="
+            border-radius: 25px;
+            box-shadow: rgb(25, 135, 84) 20px 20px 80px 0px inset,
+              0px 0px 25px 3px #198754;
+          "
+        >
+          <a
+            href="#"
+            style="
+              background-image: url(img/fashion3.jpg);
+              transform: skew(-15deg, 0deg);
+            "
+          ></a>
+          <div class="card-body col-6 overflow-hidden bb">
+            <h2 class="card-title">Children's Fashion</h2>
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Sun, December 3,
+              2023</span
+            >
+            <div class="bg-success rounded-pill my-2 line"></div>
+            <p class="card-text h-50">
+              Get ready for winter with our children's winter collection. The
+              collection includes a wide range of warm and fashionable clothing
+              and accessories for children of all ages. We offer coats and
+              jackets lined with soft fur and warm wool, in fun designs and
+              bright colors that suit children's taste. In addition, we offer
+              comfortable and stylish sweaters and pullovers, and lined and
+              flexible winter boots to provide warmth and comfort for their
+              feet. Visit our store today and discover the latest winter fashion
+              trends for children. You will find a variety of options to suit
+              the tastes of young children. Prepare for winter with elegance and
+              warmth for your dear children and let them enjoy the cold season
+              comfortably.
+            </p>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Sizes
+            </div>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Colors
+            </div>
+            <div class="bg-success d-inline-block p-2 rounded-2 nn">
+              <a href="#" class="text-decoration-none text-light"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="card flex-md-row mb-4 overflow-hidden cc"
+          style="
+            border-radius: 25px;
+            box-shadow: rgb(25, 135, 84) -20px 20px 80px 0px inset,
+              0px 0px 25px 3px #198754;
+          "
+        >
+          <a
+            href="#"
+            style="
+              background-image: url(img/fashion4.jpg);
+              transform: skew(15deg, 0deg);
+            "
+          ></a>
+          <div class="card-body col-6 overflow-hidden bb">
+            <h2 class="card-title">Sports Fashion</h2>
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Sun, December 3,
+              2023</span
+            >
+            <div class="bg-success rounded-pill my-2 line"></div>
+            <p class="card-text h-50">
+              Get ready for winter sports with our modern and comfortable sports
+              collection. The collection includes sportswear specially designed
+              to provide warmth and free movement during sports activities.
+              You'll find a wide range of sports jackets and tops made with
+              high-quality materials and breathable technologies to keep you dry
+              and comfortable while working out. In addition, we offer a variety
+              of comfortable sports pants and shorts, as well as cushioned and
+              flexible sneakers to provide support and stability during
+              workouts. Visit our store today And discover the latest sports
+              fashion trends for this season. Get ready to exercise in style and
+              comfort this winter.
+            </p>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Sizes
+            </div>
+            <div class="bg-success d-inline-block text-light p-2 rounded-2 mm">
+              All Colors
+            </div>
+            <div class="bg-success d-inline-block p-2 rounded-2 nn">
+              <a href="#" class="text-decoration-none text-light"
+                >Go Shopping</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center cad" style="font-size: 35px">JOIN US</div>
+      <div class="container mb-3">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="icon m-auto text-center rounded-3 p-3 pb-1 mt-4">
+              <div class="icon-item">
+                <h3>Follow us</h3>
+                <a href="#"><img src="img/icon1.png" /></a>
+                <a href="#" class="text-decoration-none"><h3>Go to link</h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="icon m-auto text-center rounded-3 p-3 pb-1 mt-4">
+              <div class="icon-item">
+                <h3>Subscribe Now</h3>
+                <a href="#"><img src="img/icon2.png" /></a>
+                <a href="#" class="text-decoration-none"><h3>Go to link</h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="icon m-auto text-center rounded-3 p-3 pb-1 mt-4">
+              <div class="icon-item">
+                <h3>Watch Videos</h3>
+                <a href="#"><img src="img/icon3.png" /></a>
+                <a href="#" class="text-decoration-none"><h3>Go to link</h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="icon m-auto text-center rounded-3 p-3 pb-1 mt-4">
+              <div class="icon-item">
+                <h3>Like the page</h3>
+                <a href="#"><img src="img/icon4.png" /></a>
+                <a href="#" class="text-decoration-none"><h3>Go to link</h3></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="bg-success" style="padding-bottom: 4rem !important">
+        <div class="row m-auto">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="end pt-3">
+              <div
+                class="end-item text-center border border-3 border-start-0 border-end-0 py-2"
+              >
+                <img
+                  class="rounded-circle"
+                  style="background-color: #bbd2bb"
+                  src="img/Logo.png"
+                />
+                <h3 class="d-inline-block fs-4">Good shop</h3>
+              </div>
+              <div class="end-words text-center py-3">
+                <h4 class="mb-3 fs-6">Tel: 000-000-000</h4>
+                <h4 class="mb-3 fs-6">Address: EGYPT</h4>
+                <h4 class="mb-3 fs-6">Fax: 000-000-000</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="end pt-3">
+              <div
+                class="end-item text-center border border-3 border-start-0 border-end-0 py-2"
+              >
+                <img
+                  class="rounded-circle"
+                  style="background-color: #bbd2bb"
+                  src="img/Logo.png"
+                />
+                <h3 class="d-inline-block fs-4">Important links</h3>
+              </div>
+              <div class="end-words text-center py-3">
+                <a href="#" class="text-decoration-none"
+                  ><h4 class="mb-3 fs-6">Visit us</h4></a
+                >
+                <a href="#" class="text-decoration-none"
+                  ><h4 class="mb-3 fs-6">Take a look</h4></a
+                >
+                <a href="#" class="text-decoration-none"
+                  ><h4 class="mb-3 fs-6">Your elegance is more important</h4></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="end pt-3">
+              <div
+                class="end-item text-center border border-3 border-start-0 border-end-0 py-2"
+              >
+                <img
+                  class="rounded-circle"
+                  style="background-color: #bbd2bb"
+                  src="img/Logo.png"
+                />
+                <h3 class="d-inline-block fs-4">Vision</h3>
+              </div>
+              <div class="end-words text-center py-3">
+                <h4 class="mb-3 fs-6">Services for all</h4>
+                <h4 class="mb-3 fs-6">Provide best services</h4>
+                <h4 class="mb-3 fs-6">You will be better than before</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center cad border border-3 border-start-0 border-end-0 py-2 ee"
+          style="font-size: 35px"
+        >
+          Special title treatment
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
