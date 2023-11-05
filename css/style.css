@@ -193,7 +193,7 @@ a:hover {
 .btn {
   text-align: left;
 }
-.btn:hover {
+.row .btn:hover {
   background-color: #c6c7c800;
   border-color: #c6c7c800;
 }
